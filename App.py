@@ -9,9 +9,12 @@ st.title("Stock Market Health Analysis and Fraud Detection")
 st.image("image.jpg")
 
 # User Input
-input_df = st.text_input("Please provide all the required feature details, separated by commas:")
+input_df = st.text_input("Volume Anomalies:")
+input_df = st.text_input("Price Volume Divergence:")
+input_df = st.text_input("Volatality:")
 
-submit = st.button("Submit")
+
+submit = st.button("Calculate")
 
 if submit:
     try:
