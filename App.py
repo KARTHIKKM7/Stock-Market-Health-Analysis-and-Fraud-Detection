@@ -6,7 +6,7 @@ from PIL import Image
 
 # Title and Image
 st.title("Stock Market Health Analysis and Fraud Detection")
-st.image("images.png")
+st.image("images.jpg")
 
 # User Input
 input_df = st.text_input("Please provide all the required feature details, separated by commas:")
